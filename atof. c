@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "convert.h"
 double my_atof(char *str)
 {
     int i = 0, r, c = 0, check = 1;

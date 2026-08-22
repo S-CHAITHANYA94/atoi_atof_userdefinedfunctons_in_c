@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "convert.h" 
 int my_atoi(char *str)
 {
     int i = 0, num = 0, r, c = 1;

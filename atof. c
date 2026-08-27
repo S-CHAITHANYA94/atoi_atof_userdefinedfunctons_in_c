@@ -3,7 +3,7 @@ double my_atof(char *str)
 {
     int i = 0, r, c = 0, check = 1;
     double num = 0.0, div = 10.0;
-    while (str[i] == ' ' || str[i]=='"')
+    while (str[i] == ' ')
         i++;
         if (str[i] == '-')
      {

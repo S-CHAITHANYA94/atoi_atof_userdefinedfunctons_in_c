@@ -2,7 +2,7 @@
 int my_atoi(char *str)
 {
     int i = 0, num = 0, r, c = 1;
-    while (str[i] == ' ' || str[i]=='"')
+    while (str[i] == ' ')
         i++;
         if (str[i] == '-')
      {
